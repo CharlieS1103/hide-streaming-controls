@@ -1,8 +1,8 @@
 
   {
   "manifest_version": 3,
-  "name": "Toggle Hulu Controls",
-  "description": "Make it so the Hulu Controls aren't constantly popping up since it's something that has bothered me",
+  "name": "Toggle Streaming Controls",
+  "description": "Make it so the Streaming Controls aren't constantly popping up since it's something that has bothered me",
   "version": "1.0",
   "icons": {
     "16": "images/icon-16.png"
