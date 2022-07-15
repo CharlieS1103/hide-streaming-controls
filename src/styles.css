@@ -1,3 +1,3 @@
-.ControlsContainer, .playback-overlay__container.vod{
+.ControlsContainer, .playback-overlay__container.vod, .jw-controlbar, .ytp-chrome-bottom, .watch-video--bottom-controls-container,  .ltr-hpbgml{
     display: none !important;
 }

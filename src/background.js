@@ -3,11 +3,19 @@ chrome.runtime.onInstalled.addListener(() => {
         text: "OFF",
     });
 });
-
+const urlArray = ["https://www.hulu.com", "https://www.peacocktv.com", "https://9anime.vc", "https://www.youtube.com", "https://www.netflix.com", "https://zoro.to/"]
 
 // When the user clicks on the extension action
 chrome.action.onClicked.addListener(async (tab) => {
-    if (tab.url.startsWith("https://www.hulu.com") | tab.url.startsWith("https://www.peacocktv.com")) {
+    // Loop through the array of URLS and check if the current tab is one of them
+    let validSite = false;
+    for (let i = 0; i < urlArray.length; i++) {
+        if (tab.url.startsWith(urlArray[i])) {
+            validSite = true;
+            break;
+        }
+    }
+    if (validSite) {
         // We retrieve the action badge to check if the extension is 'ON' or 'OFF'
         const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
         // Next state will always be the opposite
