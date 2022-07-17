@@ -6,3 +6,6 @@ To install, simply download the files, go to google chrome, go to the manage ext
 
 ## Usage
 Simply click the extension and it'll work, you can toggle it on and off.
+
+## How to get a streaming service on this extension:
+Simply make an issue for it and i'll try to help out.
