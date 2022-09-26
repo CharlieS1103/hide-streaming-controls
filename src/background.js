@@ -3,7 +3,7 @@ chrome.runtime.onInstalled.addListener(() => {
         text: "OFF",
     });
 });
-const urlArray = ["https://www.hulu.com", "https://www.peacocktv.com", "https://9anime.vc", "https://www.youtube.com", "https://www.netflix.com", "https://zoro.to/"]
+const urlArray = ["https://www.hulu.com", "https://www.peacocktv.com", "https://9anime.vc", "https://www.youtube.com", "https://www.netflix.com"]
 
 // When the user clicks on the extension action
 chrome.action.onClicked.addListener(async (tab) => {
