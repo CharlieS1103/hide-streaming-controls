@@ -5,6 +5,6 @@
 .watch-video--bottom-controls-container,
 .ltr-hpbgml,
 .controls__content,
-btm-media-overlays-container {
+.btm-media-overlays-container {
   display: none !important;
 }
