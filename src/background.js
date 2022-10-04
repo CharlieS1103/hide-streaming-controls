@@ -6,7 +6,6 @@ chrome.runtime.onInstalled.addListener(() => {
 const urlArray = [
   "https://www.hulu.com",
   "https://www.peacocktv.com",
-  "https://9anime.vc",
   "https://www.youtube.com",
   "https://www.netflix.com",
   "https://www.disneyplus.com",
